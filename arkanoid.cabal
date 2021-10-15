@@ -1,0 +1,68 @@
+cabal-version: 1.12
+
+-- This file has been generated from package.yaml by hpack version 0.33.0.
+--
+-- see: https://github.com/sol/hpack
+--
+-- hash: dfd75791ed7816b94c0a7b0cbe3907c1f8ce20f4d53331a936d3812c0a2806d9
+
+name:           arkanoid
+version:        0.1.0.0
+description:    Please see the README on GitHub at <https://github.com/githubuser/arkanoid#readme>
+homepage:       https://github.com/githubuser/arkanoid#readme
+bug-reports:    https://github.com/githubuser/arkanoid/issues
+author:         Author name here
+maintainer:     example@example.com
+copyright:      2020 Author name here
+license:        BSD3
+license-file:   LICENSE
+build-type:     Simple
+extra-source-files:
+    ChangeLog.md
+
+source-repository head
+  type: git
+  location: https://github.com/githubuser/arkanoid
+
+library
+  exposed-modules:
+      Geometry
+    , Settings
+    , Textures
+    , DataObjects
+    , GameCollisions
+    , Sound
+    , Store
+  other-modules:
+      Paths_arkanoid
+  hs-source-dirs:
+      src
+  build-depends:
+      base >=4.7 && <5
+    , gloss==1.13.1.1
+    , containers == 0.6.2.1
+    , split == 0.2.3.4
+    , lens
+    , proteaaudio
+
+  default-language: Haskell2010
+
+executable arkanoid
+  main-is: Main.hs
+  other-modules:
+      Paths_arkanoid
+    , GameView
+    , GameOverView
+    , MainView
+    , HighScoreView
+  hs-source-dirs:
+      app
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N
+  build-depends:
+      arkanoid
+    , base >=4.7 && <5
+    , gloss==1.13.1.1
+    , lens
+    , proteaaudio
+    
+  default-language: Haskell2010

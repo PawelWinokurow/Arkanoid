@@ -1,0 +1,11 @@
+2020-09-03 10:15:17.636394000000 [$pid(ThreadId 5)] ERROR APP - user error (loaded module can not find from path. <c:\Users\paulw\Desktop\arkanoid\app\GameView.hs> [("Main","C:/Users/paulw/Desktop/arkanoid/test/Spec.hs")])
+2020-09-03 10:15:18.951037300000 [$pid(ThreadId 8)] CRITICAL THREAD_MGR - Critical exit started.
+2020-09-03 10:15:23.794043700000 [$pid(ThreadId 5)] ERROR APP - user error (loaded module can not find from path. <c:\Users\paulw\Desktop\arkanoid\app\GameView.hs> [("Main","C:/Users/paulw/Desktop/arkanoid/test/Spec.hs")])
+2020-09-03 10:15:24.983816200000 [$pid(ThreadId 8)] CRITICAL THREAD_MGR - Critical exit started.
+2020-09-03 10:15:31.536060600000 [$pid(ThreadId 5)] ERROR APP - user error (loaded module can not find from path. <c:\Users\paulw\Desktop\arkanoid\app\Main.hs> [("Main","C:/Users/paulw/Desktop/arkanoid/test/Spec.hs")])
+2020-09-03 10:15:33.060487400000 [$pid(ThreadId 8)] CRITICAL THREAD_MGR - Critical exit started.
+2020-09-03 10:18:01.180227000000 [$pid(ThreadId 5)] ERROR APP - user error (loaded module can not find from path. <c:\Users\paulw\Desktop\arkanoid\app\Main.hs> [("Main","C:/Users/paulw/Desktop/arkanoid/test/Spec.hs")])
+2020-09-03 10:18:02.564798000000 [$pid(ThreadId 8)] CRITICAL THREAD_MGR - Critical exit started.
+2020-09-03 10:20:27.912779100000 [$pid(ThreadId 4)] WARNING REQUEST - unsupported request command. {"command":"stepOut","arguments":{"threadId":0},"type":"request","seq":42}
+2020-09-03 10:21:16.241495600000 [$pid(ThreadId 5)] ERROR APP - start debugging failed. user error (ExecResult not found.) : Left "user error (ExecResult not found.)"
+2020-09-03 10:22:54.929978100000 [$pid(ThreadId 8)] CRITICAL THREAD_MGR - Critical exit started.
